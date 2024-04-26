@@ -2,6 +2,7 @@ body {
   font-family: 'EB Garamond', serif;
   margin: 0;
   padding: 0;
+  text-align: center; /* Center align the whole webpage */
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 
 header h1 {
   margin-bottom: 0.5rem;
+  color: #333; /* Darker color for headings */
 }
 
 header nav {
@@ -44,6 +46,11 @@ section {
 
 section h2 {
   margin-bottom: 1rem;
+  color: #555; /* Slightly darker color for subheadings */
+}
+
+p {
+  color: #777; /* Light gray for paragraph text */
 }
 
 footer {
