@@ -2,6 +2,7 @@ body {
   font-family: 'Comic Neue';font-size: 22px;
   margin: 0;
   padding: 0;
+  background-color: #f0efed;
 }
 
 header {
@@ -46,7 +47,7 @@ img {
 }
 
 footer {
-  background-color: #f1f1f1;
+  background-color: #ddd;
   padding: 10px;
   text-align: center;
 }
@@ -58,4 +59,12 @@ a {
 
 a:hover {
   color: #333;
+}
+
+a img {
+  /* Adjust styles like width, height, or margin as needed */
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
